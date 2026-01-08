@@ -1,0 +1,124 @@
+customers
+customer_id	name
+C1	Alice
+C2	Bob
+C3	Carol
+orders
+order_id	customer_id	order_date
+O1	C1	2024-09-01
+O2	C1	2024-09-02
+O3	C2	2024-09-03
+
+
+customers who never placed an order 
+
+select customer_id,name from customers where customer_id not in 
+( select customer_id from orders);
+
+c3 carol
+
+emp_id	department	salary
+1	IT	9000
+2	IT	8000
+3	IT	8000
+4	IT	7000
+5	HR	7000
+6	HR	7000
+7	HR	6000
+8	HR	5000
+
+part dept
+order by salary
+
+rank dense rank
+
+SELECT DEPARTMENT,SALARY,RANK() OVER(PARTITON BY DEPARTMENT ORDER BY SALARY) AS RANK_VAL, DENSE_RANK() OVER(PARTITION BY DEPARTMENT ORDER BY SALARY) FROM EMPLOYEE;
+
+
+IT 9000 1 1
+IT 8000 2 2
+IT 8000 2 2 
+IT 7000 4 3
+HR 7000 1 1
+HR 7000 1 1 
+HR 6000 3 2
+HR 5000 4 3
+
+IT 7000
+IT 8000
+IT
+IT 
+
+VALUE 2
+
+VALUE 3
+
+SCD 2 
+
+VALUE 2 FALSE 
+VALUE 3 TRUE
+
+SCD 3
+
+VALUE 3 2
+
+sales
+region	salesperson	amount
+East	Alice	500
+East	Bob		300
+East	Carol	700
+West	Dave	400
+West	Eve		600
+West	Frank	200
+
+TOP 2 SALES PERSON OF EACH REGION BY TOTAL SALES
+
+DF=SALES.select(salesperson).rowNumber().over().partition(region).orderBy(amount).filter(rowNumber in [1,2])
+
+carol 
+alice
+eve
+dave
+
+
+user_id
+	
+email
+	
+signup_date
+
+
+U1	
+alice@email.com	
+2024-01-01
+
+
+U2	
+bob[at]mail.com	
+2024-01-02
+
+
+U3	
+NULL	
+2024-01-03
+
+
+U4	
+carol@mail.com	
+2024-01-04
+
+filter users with null or invalid emails
+
+users
+
+user_id	email	signup_date
+
+U1	alice@email.com 2024-01-01
+
+U2	bob[at]mail.com	2024-01-02
+
+U3	NULL	2024-01-03
+
+U4	carol@mail.com 2024-01-04
+ 
+df=users.dropna(["Email"])
