@@ -1,0 +1,37 @@
+
+with cte as
+(
+select id,rownumber() over( partition by id,name order by name) as cnt from employye group by id
+)
+select id from cte where cnt=1;
+
+year 
+employee id name year
+based on year 
+
+create stored procedure proc_name(year)
+returns table()
+language sql
+as
+let result = execut_immediate( select * from employee where year=:year)
+return result
+
+
+select current_timestamp()
+
+17-10-2025 2:03:67
+
+Add_month(current_timestamp,month,1)
+
+
+emp login log out 
+
+create table db_name.sch_name.temp (emp_name varchar);
+
+create database db;
+
+
+=avg(employee)
+
+
+select date_trunc(current_date,'month') ;
