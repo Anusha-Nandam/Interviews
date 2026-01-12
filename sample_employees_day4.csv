@@ -1,0 +1,21 @@
+employeeId,employeeName,departmentName,joiningDate,salaryAmount,bonusAmount,employmentStatus
+401,Aarav Patel,DataEngineering,1/10/2024,95000,6500,Active
+402,Advait Joshi,Analytics,2/15/2024,87000,5200,Active
+403,Ananya Reddy,QualityAssurance,3/20/2024,76000,4100,Active
+404,BAD_DATE_RECORD,DataPlatform,99/99/2024,105000,8000,Active
+405,Chitra Nair,BusinessIntelligence,4/25/2024,89000,5400,Active
+406,Dev Malhotra,DataEngineering,5/30/2024,115000,9000,Active
+407,Esha Singh,Analytics,6/5/2024,82000,4700,Active
+408,BAD_SALARY_RECORD,QualityAssurance,7/10/2024,ABC,5000,Active
+409,Gaurav Kumar,DataPlatform,8/15/2024,98000,6200,Active
+410,Harshita Sharma,BusinessIntelligence,9/20/2024,91000,5800,Active
+411,Ishan Verma,DataEngineering,10/25/2024,102000,7200,Active
+412,BAD_BONUS_RECORD,Analytics,11/30/2024,88000,XYZ,Active
+413,Jhanvi Desai,QualityAssurance,12/5/2024,79000,4300,Active
+414,Kiran Yadav,DataPlatform,1/10/2025,110000,8500,Active
+415,OUT_OF_RANGE_SALARY,BusinessIntelligence,2/15/2025,99999999999999999999,10000,Active
+416,Mohini Kapoor,DataEngineering,3/20/2025,94000,6100,Active
+417,Naveen Rathi,Analytics,4/25/2025,86000,5100,Active
+418,Om Prakash,QualityAssurance,5/30/2025,77000,4200,Active
+419,BAD_STATUS,DataPlatform,6/5/2025,106000,8100,InvalidStatus
+420,Ritwik Chatterjee,BusinessIntelligence,7/10/2025,90000,5600,Active
