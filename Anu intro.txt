@@ -1,0 +1,7 @@
+"Hello, good morning/afternoon. This is Anusha Nandam. I have around 2.5 years of experience as a Data Engineer, mainly working on building scalable ETL pipelines, data modeling, and automation solutions. I'm certified in Snowflake SnowPro Core and Microsoft Azure Data Engineer Associate.
+
+In my current role at Anblicks, I work with technologies like Snowflake, Azure Data Factory, DBT, and Fivetran, handling data ingestion from multiple sources into Snowflake, applying Data Vault 2.0 modeling, and building validation frameworks. I've also developed automation tools to monitor pipeline health and streamline QA processes.
+
+Additionally, I've worked on real-time reporting solutions using Power BI and Sisense Elasticubes, mainly for hospitality domain clients. One of my key projects was developing an AI-powered chatbot to retrieve documents from Snowflake using Streamlit and Pinecone for semantic search.
+
+I’m passionate about optimizing data workflows, ensuring data quality, and exploring AI-driven solutions. I'm looking forward to contributing these skills to your organization."
