@@ -1,0 +1,13 @@
+I’m Anusha Nandam, a certified Data Engineer with over 3 years of hands-on experience in designing, building, automating, and maintaining ETL pipelines and BI solutions.
+
+I’m currently working at Anblicks, where I design and develop end-to-end, schema drift-tolerant, and configuration-driven pipelines using Azure Data Factory to ingest data from multiple sources into Snowflake. I also ensure data security and governance by integrating Azure Key Vaults for credential management.
+
+For the transformation layer, I use DBT, where I’ve built custom macros to automate repetitive logic—enhancing reusability, maintainability, and consistency across projects.
+
+On the BI side, I’ve designed and maintained Power BI dashboards and Sisense Elasticubes, converting complex business logic into actionable insights for stakeholders in the hospitality domain.
+
+I’m also passionate about innovation and automation—I’ve built solutions using SQL, Python, and Snowpark to reduce manual effort and improve efficiency, which earned me recognitions like the Star Performer Award, Rookie Award, and a recent promotion for my contributions.
+
+I’m particularly interested in joining Archents because your focus on innovation, problem-solving, and end-to-end data ownership aligns perfectly with my strengths and aspirations. I see Archents as a place where I can apply my cloud and BI engineering experience to solve real-world challenges while continuing to grow and make a meaningful impact.
+
+Thank you for giving me the opportunity to introduce myself.
